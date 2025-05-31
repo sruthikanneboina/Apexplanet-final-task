@@ -1,0 +1,13 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:sans-serif;line-height:1.6;background:#fff;color:#333}
+header{background:#222;padding:1rem;color:#fff}
+nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+nav ul{list-style:none;display:flex;gap:1rem}
+nav a{color:#fff;text-decoration:none}
+main{padding:2rem}.hero{text-align:center;margin-bottom:2rem}
+.posts{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.post{border:1px solid #ccc;padding:1rem;border-radius:8px;transition:transform .3s}
+.post:hover{transform:scale(1.02)}
+.post img{width:100%;border-radius:8px}
+footer{text-align:center;padding:1rem;background:#f4f4f4;margin-top:2rem}
+@media(max-width:768px){.posts{grid-template-columns:1fr}}
